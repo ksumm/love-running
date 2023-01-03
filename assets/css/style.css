@@ -108,7 +108,6 @@ h1, h2 {
   padding-top: 30px;
   width: 33%;
   float: right;
-  background-color: silver;
 }
 #center-about {
 padding-top: 30px;
@@ -122,6 +121,7 @@ border-top: 1px solid #3a3a3a;
 width: 100%;
 margin: 5px 0;
 }
+
 .left-about-heading {
   width: 60%;
   float: right;
@@ -129,3 +129,18 @@ margin: 5px 0;
   clear: both; /* content alighn vertically*/
   margin-bottom: 50px;
 }
+.right-about-heading {
+  width: 60%;
+  float: left;
+  line-height: 20px;
+  clear: both; /* content alighn vertically*/
+  margin-bottom: 50px;
+
+}
+.right-about-heading h2 {
+  text-align: right;
+}
+.right-about-heading p {
+  text-align: right;
+}
+
