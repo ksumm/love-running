@@ -209,5 +209,17 @@ footer {
   margin: 1%;
   padding: 5%;
   color: #3a3a3a;
-  
+
+}
+/*gallery*/
+
+#photos {
+  clear: both; /*to display photos below the header*/
+  line-height: 0; /*remove any horizontal gaps between images */
+  column-count: 4;
+  column-gap: 0;
+
+}
+#photos > img {
+  width: 100%;
 }
